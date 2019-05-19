@@ -1,0 +1,56 @@
+body
+{
+	background-image: url('../images/halftone.png');
+}
+
+
+.heading
+{
+	position: relative;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 78px;
+}
+
+.navbar-brand
+{
+	background-color: #4aaaa5;
+}
+
+nav
+{
+	border-color:#cccccc;
+	border-bottom: solid #cccccc 2px;
+	height: 78px;
+}
+
+li a
+{
+	color: #777777;
+}
+
+
+@media (max-width: 640px) 
+{
+    .navbar-right {
+    	position: absolute;
+    	top: 79px;
+        width: 100%;
+        justify-content: center;
+        padding-top: 5px;
+    }
+
+    .navbar-brand{
+    	width: 100%;
+    }
+
+    .heading
+    {
+    	margin: 0;
+    }
+    nav
+    {
+    	position: relative;
+    }
+}
+
