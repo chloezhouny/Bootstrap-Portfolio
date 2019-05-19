@@ -1,20 +1,23 @@
 body
 {
-	background-image: url('../images/halftone.png');
+	height: 100vh;
+	margin: 0;
 }
 
 
 .heading
 {
 	position: relative;
-	margin-left: 5%;
-	margin-right: 5%;
 	height: 78px;
+	margin: 0 auto;
+	width: 85%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .navbar-brand
 {
 	background-color: #4aaaa5;
+	font-size: 25px;
 }
 
 nav
@@ -29,8 +32,59 @@ li a
 	color: #777777;
 }
 
+main
+{
+	background-image: url('../images/halftone.png');
+	height: 100%;
+  	overflow: scroll;
+	
+}
 
-@media (max-width: 640px) 
+.maincontent
+{
+	width: 85%;
+	margin: 0 auto;
+	border: solid #cccccc 1px;
+}
+
+hr
+{
+	height: 3px;
+	border: none;
+	background-color: #cccccc;
+}
+
+.contentheader
+{
+	color: #4aaaa5;
+	font-size: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p 
+{
+	line-height: 2;
+	font-size: 18px;
+}
+
+footer
+{
+	z-index: 200;
+	position: sticky;
+	background-color: #666666;
+	padding: 20px;
+	border-top: 7px solid #4aaaa5;
+	text-align: center;
+
+}
+
+.text-muted
+{
+	color: #cccccc;
+	font-size: 11px;	
+}
+
+@media (max-width: 576px) 
 {
     .navbar-right {
     	position: absolute;
@@ -47,10 +101,32 @@ li a
     .heading
     {
     	margin: 0;
+    	width: 100%;
     }
+
     nav
     {
     	position: relative;
     }
+
+    body
+    {
+    	height: 100%;
+    }
+
+    main
+    {
+    	width: 100%;
+    	position: relative;
+    	top: 50px;
+    }
+
+    .profileimg
+
+    {	
+    	text-align: center;
+    	width: 100%;
+    }
+
 }
 
