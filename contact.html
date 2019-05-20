@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>About</title>
+    <title>Contact</title>
 
   </head>
   
@@ -31,49 +31,33 @@
       </nav>
 
   <main>
-    <div class="container p-4 bg-light mt-5 maincontent">
-      <div class = "row fristrow">
+    <div class="container py-4 px-5 bg-light mt-5 maincontent">
+      <div class = "row mt-4">
         <div class = "col-12 contentheader">
-          <h2 class = "font-weight-bold">Contact</h2>
+          <h3 class = "pb-2 font-weight-bold">Contact</h3>
           <hr>
         </div>
       </div>
-      <div class = "row">
-        <form>
+      <div class = "row ml-1">
+        <div class = "col-12">
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+          </div>
           <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
           <div class="form-group">
-            <label for="exampleFormControlSelect1">Example select</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
           </div>
-          <div class="form-group">
-            <label for="exampleFormControlSelect2">Example multiple select</label>
-            <select multiple class="form-control" id="exampleFormControlSelect2">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+          <button type="submit" class="btn btn-primary submit px-4 py-1">Submit</button>
         </form>
+      </div>
     </div> 
   </main>
-  <!--<section class = "clearfix">
-    hello
-  </section>-->
+
   <footer class="footer mt-auto py-3 h-15 bg-dark">
       <div class = "container">
         <span class = "text-muted">Copyright&nbsp@</span>
