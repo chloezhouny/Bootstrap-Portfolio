@@ -7,11 +7,78 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>About</title>
 
-    <title>Contact</title>
   </head>
+  
   <body>
-    <h1>Hello, world!</h1>
+      <nav class="navbar navbar-expand navbar-white bg-white p-0 clear-fix ">
+       <div class = "navbar heading p-0 clear-fix justify-content-between">
+          <a class="navbar-brand font-weight-bold text-center text-white m-0 px-4 pt-4 pb-3">Chloe Zhou</a>
+          <ul class="navbar-nav navbar-right bg-white pt-2 ">
+              <li class="nav-item d-inline-block" >
+                <a class="nav-link" href="index.html">About&nbsp&nbsp&nbsp<span>|</span><span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item d-inline-block">
+                <a class="nav-link" href="portfolio.html">Portfolio&nbsp&nbsp&nbsp<span>|</span></a>
+              </li>
+              <li class="nav-item d-inline-block">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+  <main>
+    <div class="container p-4 bg-light mt-5 maincontent">
+      <div class = "row fristrow">
+        <div class = "col-12 contentheader">
+          <h2 class = "font-weight-bold">Contact</h2>
+          <hr>
+        </div>
+      </div>
+      <div class = "row">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Example select</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Example multiple select</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </form>
+    </div> 
+  </main>
+  <!--<section class = "clearfix">
+    hello
+  </section>-->
+  <footer class="footer mt-auto py-3 h-15 bg-dark">
+      <div class = "container">
+        <span class = "text-muted">Copyright&nbsp@</span>
+      </div>
+  </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

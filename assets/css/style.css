@@ -1,9 +1,13 @@
+/* Basic Structure */
+
+
 body
 {
 	height: 100vh;
 	margin: 0;
 }
 
+/* header */
 
 .heading
 {
@@ -18,6 +22,7 @@ body
 {
 	background-color: #4aaaa5;
 	font-size: 25px;
+
 }
 
 nav
@@ -32,6 +37,8 @@ li a
 	color: #777777;
 }
 
+/* main content */
+
 main
 {
 	background-image: url('../images/halftone.png');
@@ -45,6 +52,13 @@ main
 	width: 85%;
 	margin: 0 auto;
 	border: solid #cccccc 1px;
+	margin-bottom: 200px;
+
+}
+
+.firstrow
+{
+	margin-top: 5%;
 }
 
 hr
@@ -54,18 +68,25 @@ hr
 	background-color: #cccccc;
 }
 
+
+
 .contentheader
 {
 	color: #4aaaa5;
 	font-size: 30px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+
 }
 
-p 
+p
 {
 	line-height: 2;
 	font-size: 18px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+/* footer */
 
 footer
 {
@@ -75,6 +96,8 @@ footer
 	padding: 20px;
 	border-top: 7px solid #4aaaa5;
 	text-align: center;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 
@@ -83,6 +106,8 @@ footer
 	color: #cccccc;
 	font-size: 11px;	
 }
+
+/* responsive settings */
 
 @media (max-width: 576px) 
 {
