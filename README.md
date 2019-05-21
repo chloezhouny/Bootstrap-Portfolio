@@ -7,13 +7,13 @@ This project builds portfolio layout using the Bootstrap CSS Framework.
 
 #### Demo 
 
-![demo](assets/images/xl-about.png "Logo Title Text 1")
+![demo](assets/images/xl-about.png "About Me")
 
 
-![demo](assets/images/xl-portfolio.png "Logo Title Text 1")
+![demo](assets/images/xl-portfolio.png "Portfolio")
 
 
-![demo](assets/images/xl-contact.png "Logo Title Text 1")
+![demo](assets/images/xl-contact.png "Contact")
 
 
 #### Technology Used
@@ -21,7 +21,6 @@ This project builds portfolio layout using the Bootstrap CSS Framework.
 
 * HTML
 * CSS
-
 
 #### Author
       Chloe Zhou
